@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header class="header-bg w-100">
+        <nav class="navbar navbar-expand-lg px-0">
+            <div class="container-fluid fix-width-box">
+                <div class="logo__wrap d-flex flex-column flex-lg-row h-100">
+                    <a class="logo nav navbar-brand d-flex flex-column pl-3 pl-xl-0" href="index.html">
+                        <span class="logo__text-home logo__text-top">ALFA CONSULTING</span>
+                        <span class="logo__text-home logo__text-bottom">Alfa credit broker</span>
+                    </a>
+                    <div class="logo__share d-flex flex-lg-column pl-3 pl-xl-0 my-auto">
+                        <span class="logo__share-phone">8 (964) 581-31-44</span>
+                        <div class="logo__share-links pl-3 pl-lg-0">
+                            <a class="hover-active-effect link-whatsup" title="Whatsapp" href="https://api.whatsapp.com/send?phone=79645813144" rel="nofollow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a class="hover-active-effect link-viber" title="Viber" href="viber://chat?number=79645813144"><i class="fab fa-viber"></i></a>
+                            <a class="hover-active-effect link-telegram" title="Telegram" href="https://telegram.me/логинкомпании" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                            <a class="hover-active-effect" href="mailto:test@mail.ru"><i class="fas fa-at"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-toggler hover-active-effect pr-3 pr-xl-0 pl-0" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="hover-active-effect-header-home" href="#">
+                        <svg class="hover-active-effect-header-home" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512">
+                            <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
+                        </svg>
+                    </a>
+                </div>
+          
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <div class="header-nav nav navbar-nav navbar-right mr-0 ml-auto mt-2 mt-lg-0">
+                        <a class="header-nav-link nav-link hover-active-effect-header-home text-center my-auto" href="about-us.html">О нас</a>
+                        <div class="nav-item dropdown my-auto">
+                            <a class="header-nav-link nav-link hover-active-effect-header-home text-center dropdown-toggle" data-toggle="dropdown" href="about-us.html" role="button" aria-haspopup="true" aria-expanded="false">Услуги</a>
+                            <div class="dropdown-menu backcolor-dark">
+                                <a class="dropdown-item color-white" href="credit-pod-zalog-pts.html">Кредит под залог ПТС</a>
+                                <a class="dropdown-item color-white" href="ipoteka.html">Ипотека</a>
+                                <a class="dropdown-item color-white" href="credit-za-odin-den.html">Кредит за 1 день</a>
+                                <a class="dropdown-item color-white" href="refinansirovanie.html">Рефинансирование</a>
+                                <a class="dropdown-item color-white" href="credit-pod-zalog.html">Кредит под залог</a>
+                                <a class="dropdown-item color-white" href="potrebitelski-credit.html">Потребительский кредит</a>
+                                <a class="dropdown-item color-white" href="consultaciya.html">Бесплатная консультация брокера</a>
+                                <a class="dropdown-item color-white" href="proverka-istorii.html">Проверка кредитной истории</a>
+                                <a class="dropdown-item color-white" href="bankrotstvo.html">Банкротство физических лиц</a>
+                              </div>
+                        </div>
+                        <a class="header-nav-link nav-link hover-active-effect-header-home text-center my-auto" href="news.html">Новости</a>
+                        <a class="header-nav-link nav-link hover-active-effect-header-home text-center my-auto" href="contacts.html">Контакты</a>
+                        <div class="nav-item dropdown my-auto">
+                            <a class="header-nav-link nav-link hover-active-effect-header-home text-center dropdown-toggle" data-toggle="dropdown" href="about-us.html" role="button" aria-haspopup="true" aria-expanded="false">Полезное</a>
+                            <div class="dropdown-menu backcolor-dark">
+                                <a class="dropdown-item color-white" href="vopros-otvet.html">Вопрос-ответ</a>
+                                <a class="dropdown-item color-white" href="#">Отзывы</a>
+                              </div>
+                        </div>
+                        <a class="mx-auto ml-lg-2 mr-lg-0" href="consultaciya.html">
+                            <button type="send" class="header-button btn brown-button my-3 mx-auto">
+                                <span class="brown-button-text">Оставить заявку</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="backcolor-dark container-fluid d-flex justify-content-center p-0">
+        <div class="fix-width-box flex-column align-items-center text-center w-100">
+            <h2 class="heading__h2 mx-3 mx-xl-0">Новости</h2>
+            <div class="row">
+                <div class="col-md-3">
+                
+                <img class="mt-30 img-fluid rounded mb-3 mb-md-0 w-100" src="/img/bcc80867a263fac0ca051850e24bd313.jpg" alt="">
+                
+                </div>
+                <div class="col-md-9 mx-3 mx-lg-0">
+                <h3 class="heading__h3 text-center text-md-left">Средняя сумма микрозайма достигла 10,4 тысячи рублей</h3>
+                <p class="heading__text">Средняя сумма займов россиян в микрофинансовых организациях выросла за год на 9% и составила 10,4 тысячи рублей. Об этом сообщил директор департамента микрофинансового рынка Банка России Илья Кочетков. <br>
+                По его словам, размер займа растет не только в сегменте кредитования физических, но и юридических лиц. Для субъектов малого и среднего предпринимательства сумма займа выросла на 45%. При этом средняя сумма займа физлицам составила 10,4 тысячи рублей, а юрлицам - 1,03 миллиона рублей. <br>
+                Чаще всего кредиты берут граждане. Около 20% приходится на займы до зарплаты, 60% - на кредиты на более долгий срок.</p>
+                </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/85d8f6de36ff859e211fa9e4e20639e4.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">IT-компании смогут получить новые кредитные льготы</h3>
+                    <p class="heading__text">В первом квартале 2019 года компании, которые занимаются разработкой программного обеспечения (ПО), смогут частично компенсировать проценты по кредитам. Создание механизма субсидирования кредитной ставки для разработчиков отечественного ПО предполагает один из пунктов нацпроекта "Цифровая экономика".<br>
+                    По его словам, размер займа растет не только в сегменте кредитования физических, но и юридических лиц. Для субъектов малого и среднего предпринимательства сумма займа выросла на 45%. При этом средняя сумма займа физлицам составила 10,4 тысячи рублей, а юрлицам - 1,03 миллиона рублей. <br>
+                    Для развития цифровых технологий и поддержки IT-компаний планируется субсидировать до 50 процентов банковской ставки. <br>
+                    Критерии отбора банков и компаний, которые смогут принять участие в системе льготного кредитования, еще предстоит разработать. В качестве одного из основных критериев для IT-компаний рассматривается наличие в реестре отечественного ПО. Кроме того, IT-продукт должен быть связан с национальным проектом и максимально проработан. <br>
+                    Субсидирование ставки в качестве меры поддержки было выбрано потому, что 95 процентов российских разработчиков ПО не обладают залоговой массой, чтобы получить кредит. Банки не принимают в залог ПО, хотя в других странах есть такой опыт, отметил разработчик офисных приложений "МойОфис" Дмитрий Комиссаров.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/302a29b76b0a056e4586b73e0ca509d3.jpeg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">ЦБ выпустил памятную серебряную монету весом 1 кг</h3>
+                    <p class="heading__text">Центробанк выпустил памятную серебряную монету весом 1 кг, посвященную финалу конкурса по выбору символов для банкнот номиналами 200 руб. и 2000 руб. Об этом сообщается на сайте Банка России. <br>
+                    Номинал монеты — 100 руб., диаметр — 100 мм, она выпущена тиражом 75 штук.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/f33e0901038af85ec5dbdda295fe82e0.jpeg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">«Яндекс» увязал интерес пользователей к биткоину с его стоимостью</h3>
+                    <p class="heading__text">Количество поисковых запросов россиян про биткоин зависит от его курса, пришли к выводу в «Яндексе». В конце 2017-го, когда курс криптовалюты бил новые рекорды, россияне интересовались им даже больше, чем курсом доллара</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/7e53009293cc5c12ab6e8939277abd1a.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Льготная программа ипотеки вызвала рекордный рост сделок</h3>
+                    <p class="heading__text">Льготная программа ипотеки вызвала рекордный рост сделок. Доля кредитования новостроек увеличилась с 32 до 41%. С января по июль в России выдали 740 тыс. ипотечных кредитов. Программу льготной ипотеки с господдержкой запустили в конце апреля по инициативе президента России Владимира Путина.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/4d45b445b26b55b72127dc59a1b345cd.png" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Медведев рассказал о воздействии на Россию трех экономических шоков</h3>
+                    <p class="heading__text">Россия находится под воздействием сразу трех экономических шоков, считает зампредседателя Совета безопасности РФ Дмитрий Медведев. Главным из них он считает падение цен на нефть.<br>
+                    <br>
+                    «Сегодня наша страна испытывает воздействие сразу трех экономических шоков. Во-первых, падение нефтяных цен на мировом рынке. Это самый главный шок, так как отечественная экономика сохраняет зависимость от экспорта углеводородов»,— написал господин Медведев в статье для журнала «Россия в глобальной политике». Он добавил, что «основной отрицательный эффект следует ожидать в 2020 году, тогда как в следующем экономика сможет в целом адаптироваться к новым условиям, независимо от динамики цен на нефть».<br>
+                    <br>
+                    Второй шок, по мнению господина Медведева, стал следствием регуляторных решений со стороны государства на фоне коронавируса. «Внешне он чем-то напоминает ситуацию начала 1990-х годов, когда из экономического процесса выпадали отдельные субъекты хозяйственной деятельности, что приводило к разрыву сложившихся связей. Но это сравнение — крайне условное. Нынешние проблемы в реальном секторе экономики, на рынке труда, в социальной сфере и банковском секторе имеют особую природу, и привычные подходы к анализу экономических и финансовых кризисов здесь не годятся»,— добавил он.<br>
+                    <br>
+                    Третий шок связан со снижением зарубежного спроса на российские товары из-за замедления мировой экономики, пишет господин Медведев. «Сегодня сокращение торговли и спроса в мире — также во многом следствие ограничительных мер и временного разрыва хозяйственных и логистических связей. Поэтому продолжительность такого падения, возможно, будет ограничена сроком действия строгих карантинных мер, после чего спрос восстановится. Но и здесь есть угроза новой вспышки пандемии, которая способна нанести по мировой экономике сокрушительный удар, сопоставимый лишь с мировыми войнами»,— отметил он.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/4a495a3a6d3b3bea42e9ced45a444450.png" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Ставки по ипотечным кредитам в РФ будут снижены – прогноз экономиста</h3>
+                    <p class="heading__text">Российская экономика отреагирует на понижение ключевой ставки некоторым расширением внутреннего спроса, считает ведущий научный сотрудник экономического факультета МГУ Андрей Колганов. Об этом он заявил 19 июня корреспонденту ИА REGNUM, комментируя новость о понижении ключевой ставки Банка России.<br>
+                    «Бизнес будет брать кредиты несколько охотнее. По пониженным ставкам. И точно так же расширится потребительское кредитование, включая ипотечное. Я думаю, что ставки по ипотечным кредитам будут ещё снижены, как и по потребительским кредитам вообще, и это расширит внутренний спрос и поддержит строительную отрасль, которая сейчас не в лучшем положении», — сказал Колганов.<br>
+                    Напомним, ставка в 4,5% стала минимальным показателем с 2013 года.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/dac3329d497a746f25eb96d327871d2b.jpeg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">В России могут ввести налог для богатых</h3>
+                    <p class="heading__text">Возможность введения повышенной ставки НДФЛ для россиян с высокими доходами обсуждают в правительстве, пишет газета «Известия». В планах поднять НДФЛ до 15 % для тех, кто зарабатывает более 3 млн рублей в год.<br>
+                    <br>
+                    Собеседник издания рассказал, что это принесёт в бюджет дополнительные 60 млрд рублей, которые могут пойти на борьбу с бедностью. Такая мера затронет 1 % россиян.<br>
+                    <br>
+                    Отмечается сложность администрирования подобного налога. «Человек может получать доходы из разных источников – и каждый в отдельности не будет приносить ему более 3 млн рублей ежегодно. Для работодателя отследить все финансовые потоки своего сотрудника нереально», – пояснил собеседник.<br>
+                    <br>
+                    В пресс-службе правительства сообщили изданию, что такие инициативы на проработку в профильный департамент не поступали.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/46d0ab854ead91878a855c45d5bbbf74.jpeg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Эксперты заявили об окончании определенного тренда курса рубля</h3>
+                    <p class="heading__text">Устойчивый тренд укрепления рубля закончен. Об этом заявил Центр макроэкономического анализа и краткосрочного прогнозирования (ЦМАКП) в докладе, опубликованном 17 июня. Эксперты оценивали ситуацию с курсом рубля к доллару с 1 по 14 июня.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/e6145e2a4132ac590f1cdede231d2789.png" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">В США ожидают крах доллара в следующем году</h3>
+                    <p class="heading__text">В 2021 году доллар может обесцениться на треть. Так считает бывший глава Morgan Stanley Asia Стивен Роуч. По его мнению это может произойти из-за резкого сокращения сбережений и роста государственного долга на фоне успешного выхода из кризиса ключевых торговых партнёров США, сообщает РИА Новости.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/ed66885e29dada6688ddbde8b65c1ebb.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Долгожданный отпуск: зафиксирован всплеск жалоб на отказ в кредитных каникулах</h3>
+                    <p class="heading__text">Защитники прав заемщиков фиксируют лавинообразный всплеск жалоб граждан, которые не могут получить кредитные каникулы. Такая опция появилась более двух недель назад, однако людям или отказывают, или не могут предоставить достаточно информации, или подменяют госпрограмму собственными продуктами. Такие выводы сделали аналитики проекта ОНФ «За права заемщиков», проанализировав 1,5 тыс. сообщений в соцсетях и других открытых источниках.<br>
+                    Главная проблема в том, что банки зачастую вместо кредита по госпрограмме предлагают собственные продукты с менее выгодными условиями, отмечают эксперты. ЦБ и сами кредитные организации настаивают: с момента вступления в силу закона прошло мало времени. Кроме того, программы банков подходят для клиентов, которые не соответствуют критериям, заложенным в нормативе.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/d379f5d1a29dd1483158720bbb1d27ae.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Банки в России оказались наиболее подготовленными к пандемии</h3>
+                    <p class="heading__text">Российские банки оказались более готовыми к дистанционному обслуживанию клиентов по сравнению с финансовыми учреждениями в других странах. Теперь аналитики советуют банкам перевести сотрудников на удаленку и внедрить гибкие графики работы.<br>
+                    Управляющий директор международной консалтинговой компании Boston Consulting Group (BCG) Сергей Ишков отметил, что российские банки подошли к кризису, вызванному коронавирусом, в гораздо лучшей форме по сравнению с их международными коллегами.<br>
+                    <br>
+                    «В основе такого успеха лежала быстрая цифровизация бизнес-процессов, позволившая всего за несколько лет перевести большинство повседневных операций в удаленные каналы, а с точки зрения безналичных платежей вывести Россию из аутсайдера в одного из мировых лидеров», — говорится в отчете BCG.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/7f5534f5242fb21686a0026e07213f2b.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Костин спрогнозировал курс рубля в 2021 году</h3>
+                    <p class="heading__text">Председатель правления банка ВТБ Андрей Костин спрогнозировал, что Центробанку России удастся сдержать падение курса рубля в пределах 80 рублей за доллар, и выразил надежду на укрепление российской валюты в 2021 году.<br>
+                    <br>
+                    «Я верю, что мы не выйдем за пределы 80 рублей за доллар, а в дальнейшем, в 2021 году, курс рубля укрепится. На мой взгляд, у ЦБ и Министерства финансов есть возможность в случае необходимости поддерживать курс», — заявил Костин в интервью РБК.<br>
+                    <br>
+                    Резкие колебания курса рубля к доллару и евро глава ВТБ объяснил тем, что «инвесторами руководят эмоции, а не расчеты».<br>
+                    <br>
+                    «Принципиально, что в этот кризис, в отличие от предыдущих, ЦБ не прибегнул к повышению ставки. И это очень важное достижение. Курс доллара отскочил на 15%, в допустимых для банков пределах», — напомнил он.<br>
+                    <br>
+                    Напомним, на прошлой неделе бывший советник президента России, а ныне министр по интеграции и макроэкономике Евразийской экономической комиссии Сергей Глазьев предложил ввести на пространстве Евразийского экономического союза налог на валютообменные операции.<br>
+                    <br>
+                    Ранее Национальное рейтинговое агентство (НРА) представило обновленный макроэкономический обзор, в соответствии с которым суммарный ущерб для наиболее пострадавших от пандемии коронавируса отраслей российской экономики может составить 17,9 триллиона рублей, а без работы рискуют оказаться более 15 миллионов человек.<br>
+                    <br>
+                    До этого глава Счетной палаты РФ Алексей Кудрин заявил о том, что российской экономике может потребоваться пакет антикризисной поддержки в эквиваленте более 7% ВВП и для этого властям, возможно, придется пойти на увеличение госдолга.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/29ed781351fa1db8f7beb80e474bec9d.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Рязанцы могут обратиться за кредитными каникулами</h3>
+                    <p class="heading__text">3 апреля 2020 года начал действовать закон о кредитных каникулах для граждан и малого бизнеса, чей доход снизился более чем на 30% по сравнению с 2019 годом. За данной мерой поддержки можно обратиться до 30 сентября 2020 года, на данный момент именно такой срок установлен Правительством РФ. Кредитные каникулы распространяются на все видов кредитов и займов в банках, микрофинансовых организациях (МФО) и кредитных потребительских кооперативах (КПК), но только в том случае, если договор оформлен до 3 апреля.<br>
+                    <br>
+                    На время льготного периода, который может составлять 6 месяцев, заемщик освобождается от всех платежей по кредиту, штрафы и пени не растут, а кредитор не может продать находящуюся в залоге машину или квартиру. Факт снижения дохода необходимо подтвердить: предоставить справку из ФНС, уведомление о регистрации на бирже труда, официально оформленный больничный лист или иные документы. Заявление кредитор должен рассмотреть в течение 5 дней.<br>
+                    <br>
+                    «Кредитные каникулы – не отмена, а отсрочка платежа, долг в любом случае нужно будет вернуть, — напоминает управляющий Отделением Рязань ГУ Банка России по ЦФО Сергей Кузнецов. — Кроме того, по кредитным картам и потребительским кредитам в льготный период на сумму основного долга будут начисляться проценты, хотя и по льготной ставке. По ипотечным кредитам будут начислены проценты по ставке, установленной в договоре».<br>
+                    <br>
+                    Заёмщик имеет право в любой момент прервать кредитные каникулы, сообщив об этом в свой банк, МФО или КПК. До окончания льготного периода кредитор направит новый график платежей.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/dbec15cb1d5fef76057bccd8c26b3e1f.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Правительство расширит программу зарплатных кредитов на крупный бизнес</h3>
+                    <p class="heading__text">Программа льготных зарплатных кредитов будет расширена на средний и крупный бизнес, заявил премьер-министр Михаил Мишустин на совещании с вице-премьерами.<br>
+                    <br>
+                    «Сейчас важно, чтобы наиболее пострадавшие предприятия, прежде всего небольшие компании, начали получать финансовую помощь от государства. Для поддержки и сохранения занятости мы расширим действие беспроцентных кредитов на выплату зарплаты для средних и крупных компаний из пострадавших отраслей. Сегодня такими кредитами могут воспользоваться малые и микропредприятия из соответствующих отраслей», — сказал Мишустин<br>
+                    <br>
+                    Премьер также призвал ускорить разработку необходимых регуляторных и законодательных мер, обеспечивающих поддержку граждан и экономики.<br>
+                    <br>
+                    «Прошу максимально оперативно завершить подготовку необходимой нормативно-правовой базы, чтобы новые нормы заработали в интересах граждан и экономики как можно быстрее, усилили эффект от ранее принятых мер», — обратился Мишустин к вице-премьерам.<br>
+                    <br>
+                    </p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/a06bb4ced103c94e505ee76e8887e119.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">В России зафиксировали снижение числа потребительских кредитов</h3>
+                    <p class="heading__text">Эксперты зафиксировали снижение количества выданных потребительских кредитов за первые месяцы 2020 года на фоне ограничений по коронавирусу.<br>
+                    <br>
+                    Как передаёт газета «Известия» со ссылкой на данные кредитного бюро «Эквифакс», за первые два месяца 2020 года число оформленных потребительских займов в стране упало примерно на 13% (до 2,14 млн) по отношению к прошлогодним показателям.<br>
+                    <br>
+                    В Национальном бюро кредитных историй уточнили, что в марте снижение составило 15%.<br>
+                    <br>
+                    Отмечается, что в январе — феврале 2020 года банки отказали по 61% кредитных заявок, а за первые две недели апреля из них было одобрено не более 30%.<br>
+                    <br>
+                    В пресс-службе Центрального банка России заявили, что регулятор уже принял меры по повышению уровня доступности кредитов.<br>
+                    <br>
+                    Ранее доцент департамента мировой экономики и мировых финансов Финансового университета при правительстве России Лазарь Бадалов беседе с ФБА «Экономика сегодня» оценил ситуацию на рынке кредитных услуг.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/d4cd592e2ce5360557a97009362ec637.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">С 27 апреля – новый порядок наличных расчетов</h3>
+                    <p class="heading__text">Банк России установил новые правила наличных расчетов в РФ в валюте Российской Федерации (указание Банка России от 9 декабря 2019 г. № 5348-У "О правилах наличных расчетов"), а также в иностранной валюте (с соблюдением требований валютного законодательства РФ).<br>
+                    <br>
+                    Основные положения о порядке расчетов наличностью сохранились. Остался неизменным лимит расчетов между организациями (ИП) – 100 тыс. руб. в рамках одного договора. По-прежнему физлица (не ИП) могут рассчитываться между собой наличными без ограничений. Банки сохранили право расходовать поступающие в их кассы наличные деньги без ограничения целей.<br>
+                    <br>
+                    Изменилась формулировка запрета на расходование наличных из кассы. Теперь вместо списка операций, которые являлись исключениями из общего запрета, появился перечень разрешенных операций. В него добавились правила расходования наличных (с ограничениями по сумме) для микрофинансовых организаций, потребительских кооперативов и ломбардов.<br>
+                    <br>
+                    Указание вступит в силу 27 апреля 2020 года. С этой же даты утратит силу Указание Банка России от 7 октября 2013 г. № 3073-У "Об осуществлении наличных расчетов".<br>
+                    <br>
+                    <br>
+                    <br>
+                    </p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/23f153b0e1a90aa8e636750627aa05d7.jpeg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Российские банки начали принимать заявки на льготную ипотеку под 6,5%</h3>
+                    <p class="heading__text">Крупные российские банки начали принимать заявки на льготную ипотеку по ставке 6,5%. О запуске такой программы ранее объявил президент России Владимир Путин. Правительство еще не опубликовало постановление с условиями выдачи кредитов.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/ffd8857d42675b1dbb2c9a6fc2a4b915.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Нынешний кризис ведет к массовому списанию долгов</h3>
+                    <p class="heading__text">Международный валютный фонд и группа крупнейших экономик мира G20 одновременно приняли решение отсрочить выплату долгов для нескольких десятков бедных стран. МВФ предусмотрел отсрочку платежей общей суммой более миллиарда долларов, кредиторы-государства — более $20 млрд.</p>
+                    </div>
+            </div>
+                <hr>
+            <div class="row mb-4">
+                    <div class="col-md-3">
+                    <a href="#">
+                    <img class="mt-30 img-fluid rounded mb-3 mb-md-0" src="/img/10bb73176d14a4658048c4632b69ef84.jpg" alt="">
+                    </a>
+                    </div>
+                    <div class="col-md-9 mx-3 mx-lg-0">
+                    <h3 class="heading__h3 text-center text-md-left">Собянин предоставил предпринимателям отсрочку платежей на 3,6 млрд рублей</h3>
+                    <p class="heading__text">Москва предоставила предпринимателям отсрочку платежей на 3,6 миллиарда рублей. Это один из пунктов помощи предпринимателям, утвержденный мэром Москвы Сергеем Собяниным в рамках третьего пакета антикризисных мер.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-wrap container-fluid d-flex justify-content-center py-5">
+        <div class="w-100 w-xl-80 row fix-width-box text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5 class="heading__h3">Главное</h5>
+                <ul class="list-unstyled quick-links">
+                    <li><a class="hover-active-effect" href="/">Главная</a></li>
+                    <li><a class="hover-active-effect" href="about-us.html">О нас</a></li>
+
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5 class="heading__h3">Услуги</h5>
+                <ul class="list-unstyled quick-links">
+                    <li><a class="hover-active-effect" href="credit-pod-zalog-pts.html">Кредит под залог ПТС</a></li>
+                    <li><a class="hover-active-effect" href="ipoteka.html">Ипотека</a></li>
+                    <li><a class="hover-active-effect" href="credit-za-odin-den.html">Кредит за 1 день</a></li>
+                    <li><a class="hover-active-effect" href="refinansirovanie.html">Рефинансирование</a></li>
+                    <li><a class="hover-active-effect" href="credit-pod-zalog.html">Кредит под залог</a></li>
+                    <li><a class="hover-active-effect" href="potrebitelski-credit.html">Потребительский кредит</a></li>
+                    <li><a class="hover-active-effect" href="consultaciya.html">Бесплатная консультация брокера</a></li>
+                    <li><a class="hover-active-effect" href="proverka-istorii.html">Проверка кредитной истории</a></li>
+                    <li><a class="hover-active-effect" href="bankrotstvo.html">Банкротство физических лиц</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5 class="heading__h3">Информация</h5>
+                <ul class="list-unstyled quick-links">
+                    <li><a class="hover-active-effect" href="/">Главная</a></li>
+                    <li><a class="hover-active-effect" href="about-us.html">О нас</a></li>
+                    <li><a class="hover-active-effect" href="vopros-otvet.html">Вопрос-ответ</a></li>
+                    <li><a class="hover-active-effect" href="contacts.html">Контакты</a></li>
+                    <li><a class="hover-active-effect" href="privacy-policy.html">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+        </div>
+       
+    </footer>
+
+    <div class="scrollup">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>

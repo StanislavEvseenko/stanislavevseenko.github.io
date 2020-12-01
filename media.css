@@ -1,0 +1,92 @@
+@media only screen and (min-width: 992px) {
+    .logo__svg-home {
+        fill: #fff !important;
+    }
+    .logo__text-home {
+        color: #ec3223 !important;
+    }
+    .logo__text-bottom {
+        color: #ffffff !important;
+        font-size: 10px !important;
+        letter-spacing: 9px;
+        text-transform: uppercase;
+    }
+    .hover-active-effect-header-home { 
+        color: #fff !important;
+        fill: #fff !important;
+        transition: color .2s, fill .2s;
+    }
+    header {
+        background: none !important;
+    }
+    .header-bg {
+        background-color: #111111 !important;
+    }
+    .header-nav {
+        background: none !important;
+    }
+    .header-nav-link {
+        border-bottom: none;
+    }
+    .heading__h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    .purchase-wrap {
+        height: 150px;
+    }
+    .partners-wrap {
+		height: 500px;
+    }
+    .contacts-map {
+        height: 500px !important;
+    }
+    div.scrollup {
+        font-size: 30px; /* размер шрифта (иконки) */
+      }
+}
+@media only screen and (min-width: 768px) {
+    .heading__h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .heading__h2 {
+        margin-top: 80px;
+        margin-bottom: 25px;
+        font-family: 'Raleway';
+        font-size: 52px;
+        font-weight: 800;
+        line-height: normal;
+        color:#ffffff;
+        text-align: left;
+    }
+    .carousel-caption-span {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .carousel-caption-h1 {
+        font-size: 3rem;
+	    font-weight: 800;
+	    line-height: normal;
+	    text-align: left;
+    }
+    .carousel-caption-p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+    .form-contacts .form-group:first-child,
+    .form-contacts .form-group:nth-child(2),
+    .form-contacts .form-group:nth-child(3) {
+        width: 60%;
+    }  
+}
+@media only screen and (min-width: 450px) {
+	.post-card {
+		width: 370px;
+	}
+	.project-card {
+		width: 370px;
+	}
+}
