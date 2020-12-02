@@ -119,8 +119,14 @@ p {
 	padding-bottom: .3125rem;
 	
 }
+.logo__share-links {
+	display: none;
+}
 .logo__wrap {
 	vertical-align: middle;
+}
+.logo__share-mobile__links a {
+	font-size: 30px;
 }
 .logo__share-phone {
 	color: #ffffff !important;
@@ -231,6 +237,11 @@ background-color:  rgb(40, 40, 40) !important;
 .carousel {
 	height: calc(100vh - 80px);
 }
+.carousel-caption,
+.carousel-control-prev,
+.carousel-control-next {
+	padding-top: 120px;
+}
 
 .carousel-caption-span {
 	font-family: 'Raleway', sans-serif;
@@ -288,9 +299,7 @@ background-color:  rgb(40, 40, 40) !important;
 	box-sizing: border-box;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	/* background: linear-gradient(125deg,  #040404 22%, rgb(40, 40, 40) 100%); */
 	background-color:  rgb(40, 40, 40);
-	/* background-color:#ffffff; */
 	border-radius: 10px;
 	z-index: 90;
 }
@@ -298,7 +307,6 @@ background-color:  rgb(40, 40, 40) !important;
 /*  PROJECTS  */
 .projects-wrap {
 	min-height: 100vh;
-	/* background-color: #ec3223; */
 	background-color: #111111;
 }
 
@@ -337,7 +345,6 @@ background-color:  rgb(40, 40, 40) !important;
 .project-card {
 	width: 100%;
 	border-radius: 20px;
-	/* box-shadow: 0px 0px 27px 0px #111111; */
 }
 
 .project-card__image-wrap {
@@ -364,7 +371,6 @@ background-color:  rgb(40, 40, 40) !important;
 
 .project-card__text {
 	min-height: 235px;
-	/* background: linear-gradient(125deg,  #040404 22%, rgb(40, 40, 40) 100%); */
 	background-color:  rgb(40, 40, 40);
 	border-radius: 0 0 20px 20px;
 	font-size: 20px;
@@ -376,7 +382,6 @@ background-color:  rgb(40, 40, 40) !important;
 	font-family: 'Raleway';
 	font-size: 20px;
 	font-weight: 500;
-	/* text-shadow: 3px 3px black; */
 	color: #ffffff;
 }
 
@@ -446,12 +451,7 @@ background-color:  rgb(40, 40, 40) !important;
 /* FOOTER */
 .footer-wrap {
 	background-color:  rgb(40, 40, 40);
-	/* background: linear-gradient(125deg,  #1f1f1f 22%, rgb(60, 60, 60) 100%); */
 }
-
-/* footer {
-	height: calc(100vh - 68px);
-} */
 
 .footer {
 	padding-top: 105px !important;

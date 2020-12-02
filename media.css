@@ -11,6 +11,12 @@
         letter-spacing: 9px;
         text-transform: uppercase;
     }
+    .logo__share-mobile {
+        display: none !important;
+    }
+    .logo__share-links {
+        display: flex;
+    }
     .hover-active-effect-header-home { 
         color: #fff !important;
         fill: #fff !important;
@@ -32,6 +38,12 @@
         font-size: 2.5rem;
         font-weight: 800;
     }
+    .carousel-caption,
+    .carousel-control-prev,
+    .carousel-control-next {
+	padding-top: 0px;
+}
+
     .purchase-wrap {
         height: 150px;
     }
