@@ -91,7 +91,7 @@
     .form-contacts .form-group:first-child,
     .form-contacts .form-group:nth-child(2),
     .form-contacts .form-group:nth-child(3) {
-        width: 60%;
+        width: 100%;
     }  
 }
 @media only screen and (min-width: 450px) {

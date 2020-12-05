@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вопрос-ответ</title>
+    <title>Менеджерам</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
@@ -86,69 +86,35 @@
         </nav>
     </header>
 
-    <section class="backcolor-dark container-fluid d-flex justify-content-center p-0">
+    <section class="backcolor-dark container-fluid d-flex justify-content-center px-2">
         <div class="fix-width-box flex-column align-items-center text-center w-100">
-            <h2 class="heading__h2 mx-3 mx-xl-0">Вопрос-ответ</h2>
-            <div class="container text-justify heading__text">
-                <div class="mb-4" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="card backcolor-light mb-2">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <h5 class="mb-0">
-                            <a class="hover-active-effect" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapseTwo">
-                            Сообщаете ли Вы клиентам – заемщикам о том, что в кредитном договоре есть недоступные взору с первого раза комиссии?</a>
-                            </h5>
-                        </div>
-                        <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="card-body heading__text">
-                            Наша компания выбирает в свои партнеры лишь те банки, которые не имеют в своем арсенале тайные для клиентов комиссии. Сумма, которую в конечном итоге выплатит заемщик, очевидна сразу. Благодаря получению сведений от наших банков-партнеров и реализованной возможности пользоваться кредитным калькулятором, мы озвучим клиенту размер той суммы, которую он выплатит.
-                            </div>
-                        </div>
+            <h2 class="heading__h2 mx-3 mx-xl-0">Обратная связь</h2>
+            <form class="form-contacts my-5 row">
+                <div class="col-12 col-lg-6">
+                    <div class="form-group mx-auto w-100">
+                        <label class="heading__text mx-auto" for="nameInput">Имя</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="">
                     </div>
-                    <div class="card backcolor-light mb-2">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <h5 class="mb-0">
-                                <a class="hover-active-effect" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapseTwo">
-                                Бытует мнение, что при обращении к брокерам, можно получать кредит лишь в тех банках, с которыми у них определенная договоренность. А при этом есть иные финансовые организации, обратившись к которым, можно получить деньги в кредит и это предложение оказывается более рентабельным. Что Вы скажете по этому поводу?
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="card-body heading__text">
-                                Такие случаи вполне реальны. В настоящее время многие зарабатывают деньги так, как умеют и придумывают уйму ухищрений. Но этого можно избежать, если придерживаться некоторых моментов. Во-первых, при принятии решения обратиться именно к этому брокеру, нужно знать, сколько банков-партнеров у компании, в которой он трудится. Если это число окажется внушительным, то можно доверять. Во-вторых, при общении с брокером обратите внимание на детали. Например, он сам должен Вам разъяснять выбор предложенной им кредитной программы. И если ответы логичны и действительно уверяют Вас в правдивости всего сказанного, можно продолжать сотрудничество. В-третьих, если брокер говорит, что услуги его бесплатны, значит уверенно можно говорить о том, что он – агент банка. Он просто заманивает Вас, чтобы Вы взяли именно в указанном им банке деньги в кредит.
-                            </div>
-                        </div>
+                    <div class="form-group mx-auto w-100">
+                        <label class="heading__text mx-auto" for="emailInput">Почта</label>
+                        <input type="text" class="form-control" id="emailInput" placeholder="">
                     </div>
-                    <div class="card backcolor-light mb-2">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <h5 class="mb-0">
-                                <a class="hover-active-effect collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
-                                Мне нужно очень срочно взять кредит (за 1 день) Вы мне можете помочь?
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="card-body heading__text">Да поможем! причем не только в течении 1 дня, но и в течении 1 часа!</div>
-                        </div>
-                    </div>
-                    <div class="card backcolor-light">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <h5 class="mb-0">
-                                <a class="hover-active-effect collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapseTwo">
-                                У меня нету справки 2ндфл и трудовой книжки (работаю не официально) Вы сможете помочь в таком случае взять кредит ?</a>
-                            </h5>
-                        </div>
-                        <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="card-body heading__text">
-                                Да конечно мы можем помочь, так как мы знаем практически все условия и критерии работы всех банков не только в Москве и области, но и по всей России! Есть банки, которые готовы предоставить кредит при наличии других документов. А порой доходит и до того, что банку достаточно предоставить только паспорт (и наши рекомендации). У банков больше доверия клиентам, пришедшим через нас и поэтому более мягкие требования и более дружелюбная процентная ставка (выгода от которой с запасом покрывает стоимость наших услуг)
-                            </div>
-                        </div>
+                    <div class="form-group mx-auto w-100">
+                        <label class="heading__text mx-auto" for="nameInput">Телефон</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="">
                     </div>
                 </div>
-                &nbsp;
-                <br>
-                <br>
-                &nbsp;
-            </div>
+                <div class="form-group mx-auto col-12 col-lg-6">
+                    <label class="heading__text mx-auto" for="emailInput">Комментарий</label>
+                    <textarea class="form-control" name="" id="" cols="1" rows="8"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="send" class="btn brown-button my-3 mx-auto">
+                        <span class="brown-button-text">Оставить заявку</span>
+                    </button>
+                </div>
+                <span class="col-12">Нажимая кнопку "Оставить заявку" вы даете согласие на обработку персональных данных</span>
+            </form>
         </div>
     </section>
 

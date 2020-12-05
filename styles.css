@@ -10,6 +10,7 @@ header {
 img {
     object-fit: cover;
 }
+
 a {
 	text-decoration: none !important;
 }
@@ -17,12 +18,15 @@ a {
 p {
 	text-align: justify;
 }
+
 .backcolor-dark {
 	background-color: #111111;
 }
+
 .backcolor-light {
 	background-color: rgb(40, 40, 40) !important;
 }
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -30,6 +34,7 @@ p {
 .mt-30 {
 	margin-top: 30px;
 }
+
 /*  HOVER-ACTIVE EFFECT  */
 .hover-active-effect-header-home,
 .hover-active-effect-header { 
@@ -67,12 +72,10 @@ p {
 	min-height: 50px;
 	border-radius: 3px;
 	background-color:  #ec3223;
-	/* border-bottom: 3px solid #ed6056; */
 }
 
 .brown-button:hover {
 	background-color:  #771b14;
-	/* border-bottom: 3px solid #998675; */
 }
 
 .brown-button:hover .brown-button-text {
@@ -106,12 +109,14 @@ p {
 	font-weight: bolder;
 	font-family: 'Montserrat', sans-serif;
 }
+
 .logo__text-bottom {
 	color: #ffffff !important;
 	font-size: 10px !important;
 	letter-spacing: 9px;
 	text-transform: uppercase;
 }
+
 .logo__share {
 	min-width: 173px;
 	margin-top: 0.4rem !important;
@@ -119,15 +124,19 @@ p {
 	padding-bottom: .3125rem;
 	
 }
+
 .logo__share-links {
 	display: none;
 }
+
 .logo__wrap {
 	vertical-align: middle;
 }
+
 .logo__share-mobile__links a {
 	font-size: 30px;
 }
+
 .logo__share-phone {
 	color: #ffffff !important;
 	font-size: 18px !important;
@@ -225,8 +234,19 @@ background-color:  rgb(40, 40, 40) !important;
 }
 
 .header-button {
+	border-radius: 0px 3px 3px 0px;
 	min-height: 41px !important;
 	width: 150px !important;
+}
+
+.header-button-grey {
+	border-radius: 3px 0px 0px 3px;
+	min-height: 41px !important;
+	width: 120px !important;
+	background-color: rgb(40, 40, 40) !important;
+}
+.header-button-grey:hover {
+	background-color: #111111 !important;
 }
 
 /* TOP CAROUSEL */
@@ -500,14 +520,16 @@ background-color:  rgb(40, 40, 40) !important;
 .contacts-map {
     height: 400px !important;
 }
-
+textarea.form-control {
+	height: 218px;
+}
 .form-control {
 	background-color: #1f1f1f !important;
 	border: none !important;
 	color: #ffffff !important;
 }
 .contacts-text span {
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid  #ec3223;
 }
 
 /* TEAM PAGE */

@@ -40,7 +40,7 @@
           
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <div class="header-nav nav navbar-nav navbar-right mr-0 ml-auto mt-2 mt-lg-0">
-                        <a class="header-nav-link nav-link hover-active-effect-header-home text-center my-auto" href="about-us.html">О нас</a>
+                        
                         <div class="nav-item dropdown my-auto">
                             <a class="header-nav-link nav-link hover-active-effect-header-home text-center dropdown-toggle" data-toggle="dropdown" href="about-us.html" role="button" aria-haspopup="true" aria-expanded="false">Услуги</a>
                             <div class="dropdown-menu backcolor-dark">
@@ -55,20 +55,23 @@
                                 <a class="dropdown-item color-white" href="bankrotstvo.html">Банкротство физических лиц</a>
                               </div>
                         </div>
-                        <a class="header-nav-link nav-link hover-active-effect-header-home text-center my-auto" href="news.html">Новости</a>
+                        
                         <a class="header-nav-link nav-link hover-active-effect-header-home text-center my-auto" href="contacts.html">Контакты</a>
                         <div class="nav-item dropdown my-auto">
                             <a class="header-nav-link nav-link hover-active-effect-header-home text-center dropdown-toggle" data-toggle="dropdown" href="about-us.html" role="button" aria-haspopup="true" aria-expanded="false">Полезное</a>
                             <div class="dropdown-menu backcolor-dark">
+                                <a class="dropdown-item color-white" href="news.html">Новости</a>
                                 <a class="dropdown-item color-white" href="vopros-otvet.html">Вопрос-ответ</a>
-                                <a class="dropdown-item color-white" href="#">Отзывы</a>
                               </div>
                         </div>
-                        <a class="mx-auto ml-lg-2 mr-lg-0" href="consultaciya.html">
-                            <button type="send" class="header-button btn brown-button my-3 mx-auto">
+                        <div class="header-buttons d-flex justify-content-center my-3 my-lg-0 mx-auto ml-lg-2 mr-lg-0">
+                            <a class="header-button-grey btn brown-button my-auto mx-0" href="menegeram.html">
+                                <span class="brown-button-text">Менеджерам</span>
+                            </a>
+                            <a class="header-button btn brown-button my-auto mx-0" href="consultaciya.html">
                                 <span class="brown-button-text">Оставить заявку</span>
-                            </button>
-                        </a>
+                            </a>
+                        </div>
                         <div class="logo__share-mobile d-flex flex-lg-column my-auto">
                             <div class="logo__share-mobile__links w-100 d-flex justify-content-between">
                                 <a class="hover-active-effect link-whatsup ml-4" title="Whatsapp" href="https://api.whatsapp.com/send?phone=79645813144" rel="nofollow" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -152,11 +155,29 @@
     <footer class="footer-wrap container-fluid d-flex justify-content-center py-5">
         <div class="w-100 w-xl-80 row fix-width-box text-center text-xs-center text-sm-left text-md-left">
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <h5 class="heading__h3">Главное</h5>
+                <h5 class="heading__h3">Контакты</h5>
+                
                 <ul class="list-unstyled quick-links">
-                    <li><a class="hover-active-effect" href="/">Главная</a></li>
-                    <li><a class="hover-active-effect" href="about-us.html">О нас</a></li>
-
+                    <li class="mb-2"><span><a class="hover-active-effect" href="mailto:test@mail.ru"><i class="fas fa-envelope mr-3"></i>info@alfa-consulting.ru</span></a></li>
+                    <li class="mb-2"><span class="logo__share-phone">8 (964) 581-31-44</span></li>
+                    <li>
+                        <div class="logo__share-links pl-3 pl-lg-0">
+                            <a class="hover-active-effect link-whatsup mr-2" title="Whatsapp" href="https://api.whatsapp.com/send?phone=79645813144" rel="nofollow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a class="hover-active-effect link-viber mx-2" title="Viber" href="viber://chat?number=79645813144"><i class="fab fa-viber"></i></a>
+                            <a class="hover-active-effect link-telegram mx-2" title="Telegram" href="https://telegram.me/логинкомпании" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                            <a class="hover-active-effect mx-2" href="mailto:test@mail.ru"><i class="fas fa-at"></i></a>
+                        </div>
+                        <div class="logo__share-mobile d-flex flex-lg-column my-auto">
+                            <div class="logo__share-mobile__links w-100 d-flex justify-content-between">
+                                <a class="hover-active-effect link-whatsup ml-4" title="Whatsapp" href="https://api.whatsapp.com/send?phone=79645813144" rel="nofollow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                <a class="hover-active-effect link-viber" title="Viber" href="viber://chat?number=79645813144"><i class="fab fa-viber"></i></a>
+                                <a class="hover-active-effect link-telegram" title="Telegram" href="https://telegram.me/логинкомпании" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                                <a class="hover-active-effect mr-4" href="mailto:test@mail.ru"><i class="fas fa-at"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
@@ -177,7 +198,6 @@
                 <h5 class="heading__h3">Информация</h5>
                 <ul class="list-unstyled quick-links">
                     <li><a class="hover-active-effect" href="/">Главная</a></li>
-                    <li><a class="hover-active-effect" href="about-us.html">О нас</a></li>
                     <li><a class="hover-active-effect" href="vopros-otvet.html">Вопрос-ответ</a></li>
                     <li><a class="hover-active-effect" href="contacts.html">Контакты</a></li>
                     <li><a class="hover-active-effect" href="privacy-policy.html">Политика конфиденциальности</a></li>
